@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>Portal kosmetyczny</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700,900|Roboto+Condensed:400,700|Roboto:400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="default-header">
+        <div class="menutop-wrap">
+            <div class="container menu-top-style">
+                <ul class="menu-top2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login-page.html"><i class="fas fa-user-circle"></i> LOGOWANIE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register-page.html"><i class="fa fa-user-plus"></i> REJESTRACJA</a>
+                    </li>
+                    <a href="#">
+                    <li class="button nav-item">
+                        <i class="fa fa-plus"></i> Dodaj ogłoszenie
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container .navbar-container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo-1.png"><h1 class="logo">KOSMO<br><span class="logo2">portal-kosmetyczny</span></h1>
+                    </a>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end align-items-center"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li><a href="index.html">GŁÓWNA</a></li>
+                            <li><a href="listing-ogloszenie.html">OGŁOSZENIA</a></li>
+                            <li><a href="listing-blog.html">BLOG</a></li>
+                            <li><a href="pakiety_tabela.html">PAKIETY</a></li>
+                            <li><a href="#">POMOC</a></li>
+                            <li><a href="formularz_kontaktowy.html">KONTAKT</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start banner -->
+    <section class="banner-area">
+        <div class="container">
+            <div class="row fullscreen align-items-center justify-content-center text-center">
+                <div class="banner-content col-lg-12">
+                    <h2 class="text-white">
+                        <p class="h1">Jedno miejsce, kilka kliknięć...<br>
+                            <span>Twój cel zostanie zrealizowany!</span>
+                        </p>
+                        <p class="h3">Przeglądaj setki tysięcy ogłoszeń. <br>Kupuj, sprzedawaj i bądź widoczny dla
+                            innych.
+                        </p>
+                        <p class="h4">Szukaj ogłoszeń dopasowanych do Ciebie. Aktualnie mamy ich 4500! Pamiętaj, że
+                            każdego dnia będzię ich przybywać.
+                        </p>
+                    </h2>
+                    <form class="search-form" method="get">
+                        <div class="row justify-content-center search-bar form-wrap">
+                            <div class="col-lg-3 form-cols">
+                                <input class="form-control keyword" placeholder="Wpisz to czego szukasz" type="text">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <div class="col-lg-3 form-cols">
+                                <label class="form-control styled-select location-select">
+                                    <select class="dropdown-product">
+                                        <option value="0">Wskaż lokalizację</option>
+                                        <option value="Warszawa">Warszawa</option>
+                                        <option value="Olsztyn">Olsztyn</option>
+                                        <option value="Łodz">Łódź</option>
+                                        <option value="Sopot">Sopot</option>
+                                        <option value="Krakow">Kraków</option>
+                                        <option value="Zakopane">Zakopane</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="col-lg-3 search-bar form-cols">
+                                <label class="form-control styled-select">
+                                    <select class="dropdown-product">
+                                        <option value="0">Wybierz kategorię</option>
+                                        <option value="#"> Praca</option>
+                                        <option value="#"> Zdrowie</option>
+                                        <option value="#"> Uroda</option>
+                                        <option value="#"> Sport</option>
+                                        <option value="#"> Moda</option>
+                                        <option value="#"> Usługi i firmy</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="col-lg-1 form-cols">
+                                <button class="btn btn-info btn-block"><b>Szukaj</b></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner -->
+    <!-- Start category -->
+    <section class="feature-cat-area pt-100">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="menu-content col-lg-10">
+                    <div class="title">
+                        <h2 class="header-category">PRZEGLĄDAJ KATEGORIE</h2>
+                        <p>Przęglądaj aktualnie dostepne kategorie. Nasz serwis umozliwi Ci znalezienie tego czego
+                            potrzebujesz. Codzienie w naszym serwisie pojawiają się nowe ogłoszenia. Ty też możesz
+                            zamieścić tutaj swoje ogłoszenie.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row part1">
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                        <div class="single-fcat">
+                                <img src="img/o1.png" alt="Praca">
+                            <p>Praca</p>
+                        </div>
+                        </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                                <div class="single-fcat">
+                                        <img src="img/o2.png" alt="Zdrowie">
+                                    <p>Zdrowie</p>
+                                </div>
+                              </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                                <div class="single-fcat">
+                                        <img src="img/o3.png" alt="Uroda">
+                                    <p>Uroda</p>
+                                </div>
+                              </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                                <div class="single-fcat">
+                                        <img src="img/o4.png" alt="Sport">
+                                    <p>Sport</p>
+                                </div>
+                              </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                                <div class="single-fcat">
+                                        <img src="img/o5.png" alt="Moda">
+                                    <p>Moda</p>
+                                </div>
+                              </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 category">
+                    <a href="#">
+                            <div class="single-fcat">
+                                    <img src="img/o6.png" alt="Usługi i firmy">
+                                <p>Usługi i firmy</p>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End category -->
+    <!-- Start popular ads -->
+    <section class="popular-ads-area ads-white">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="menu-content col-lg-10">
+                    <div class="title">
+                        <h2 class="header-category">POPULARNE OGŁOSZENIA</h2>
+                        <p>Codziennie zawsze nowe ogłoszenia. Twoje ogłoszenie też może się tu znaleść!.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row popular">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="padding">
+                                <div class="blog-cont">
+                                    <img src="img/bg3.png" class="img-fluid">
+                                    <span class="featured-rating">WYRÓŻNIONE</span>
+                                    <span class="price-ads">1200 zł</span>
+                                    <div class="featured-title-box">
+                                        <h6>Oddam za darmo stolik kosmetyczny. Tylo odbiór osobisty na terenie...</h6>
+                                        <ul>
+                                            <li><span class="fa fa-map-marker"></span>
+                                                <p>Warszawa</p>
+                                            </li>
+                                            <li><span class="fa fa-eye"></span>
+                                                <p>1434</p>
+                                            </li>
+                                        </ul>
+                                        <div class="bottom-icons">
+                                            <a href="ogloszenie-wyglad-ogolny.html">Zobacz to ogłoszenie</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding">
+                                <div class="blog-cont">
+                                    <img src="img/bg2.png" class="img-fluid">
+                                    <span class="featured-rating-green">ZA DARMO</span>
+                                    <span class="price-ads">0.00</span>
+                                    <div class="featured-title-box">
+                                        <h6>Oddam za darmo stolik kosmetyczny. Tylo odbiór osobisty na terenie...</h6>
+                                        <ul>
+                                            <li><span class="fa fa-map-marker"></span>
+                                                <p>Poznań</p>
+                                            </li>
+                                            <li><span class="fa fa-eye"></span>
+                                                <p>1434</p>
+                                            </li>
+                                        </ul>
+                                        <div class="bottom-icons">
+                                            <a href="ogloszenie-wyglad-ogolny.html">Zobacz to ogłoszenie</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding">
+                                <div class="blog-cont">
+                                    <img src="img/bg.png" class="img-fluid">
+                                    <span class="featured-rating">DOBRA CENA</span>
+                                    <span class="price-ads">400 zł</span>
+                                    <div class="featured-title-box">
+                                        <h6>Sprzedam myjkę fryzjerską. Użyta tylko dwa razy. Odbiór...</h6>
+                                        <ul>
+                                            <li><span class="fa fa-map-marker"></span>
+                                                <p>Gdańsk</p>
+                                            </li>
+                                            <li><span class="fa fa-eye"></span>
+                                                <p>1434</p>
+                                            </li>
+                                        </ul>
+                                        <div class="bottom-icons">
+                                            <a href="ogloszenie-wyglad-ogolny.html">Zobacz to ogłoszenie</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featured-btn-wrap">
+                        <a href="listing-ogloszenie.html" class="btn btn-danger">Zobacz więcej</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End popular ads -->
+    <!-- Promo ads -->
+    <section class="promo pt-100">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="menu-content col-lg-12">
+                    <div class="title">
+                        <h2 class="header-promo">PŁATNE OGŁOSZENIA REGIONALNE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row promo_container1">
+                <div class="swiper-wrapper">
+                    <div class="promo_item1 swiper-slide">
+                        <div class="promo_image">
+                            <img src="img/baner_manicurepedicure.jpg" class="img-fluid">
+                        </div>
+                        <span class="location">Łomża</span>
+                        <div class="promo_link"><a href="ogloszenie-wyglad-ogolny.html">ZOBACZ TO OGŁOSZENIE</a></div>
+                    </div>
+                    <div class="promo_item1 swiper-slide">
+                        <div class="promo_image">
+                            <img src="img/baner_dobryfryzjer.jpg" class="img-fluid">
+                        </div>
+                        <span class="location">WROCŁAW</span>
+                        <div class="promo_link"><a href="ogloszenie-wyglad-ogolny.html">ZOBACZ TO OGŁOSZENIE</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo_all"><a href="listing-ogloszenie.html">Wiecej ogłoszeń ></a></div>
+        </div>
+    </section>
+    <!-- End Promo ads -->
+    <!-- News Ads -->
+    <section class="news-ads-area ads-blue">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="menu-content col-lg-10">
+                    <div class="title-news">
+                        <h2 class="header-news-ads">Ostatnio dodane ogłoszenia</h2>
+                        <p>Przęglądaj ostatnio dodane ogłoszenia. Nasz serwis umozliwi Ci znalezienie tego czego
+                            potrzebujesz. <br>Codzienie w naszym serwisie pojawiają się nowe ogłoszenia. Ty też możesz
+                            zamieścić tutaj swoje ogłoszenie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a class="menu-link" href="ogloszenie-wyglad-ogolny.html">
+                            <div class="media menu-item">
+                                <img src="img/ads-hair.jpg" class="rounded-circle mr-3 img-fluid" alt="">
+                                <div class="media-body">
+                                    <p class="heading-news">Zatrunimy pomoc fryzjerską do pracy w salonie fryzjerskim.<br>Oferujemy atrakcyjne wynagrodzenie. Prosimy o CV...</p>
+                                    <p class="text-primary">MIEJSCOWOŚĆ: WARSZAWA | DODANO: 25.08.2018 09:45 | PRACA</p>
+                                    <p class="circle"><a href="#"><i class="fas fa-long-arrow-alt-right"></i></p>
+                                </div>
+                            </div>
+                            </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featured-btn-news">
+                        <a href="listing-ogloszenie.html" class="btn btn-news">POKAŻ WSZYSTKIE NOWE OGŁOSZENIA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End News ads -->
+    <!-- Start footer -->
+    <footer class="mu-footer">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="footer-content col-lg-12">
+                    <h2 class="text-white-footer">
+                        <p class="h2-footer">W czym jeszcze możemy Ci pomóc?</p>
+                        <p class="h3-footer">Jeżeli masz pytania, a odpowiezdzi nie znalazłeś/aś na naszej
+                            stronie,<br>chiałbyś zamieścić reklamę płatną lub masz inną sprawę poprostu skontaktuj się z
+                            nami.
+                        </p>
+                        <p class="h1-footer">Zadzwoń: 801 400 500*</p>
+                        <p class="h4-footer">Nasi specjaliści są do Twojej dyspozycji w od pn-pt w
+                            godzinach 9 - 17. Koszt połączenia zgodny z cennikime Twojego operatora.
+                        </p>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex footer-link">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>DZIAŁ INFORMACJI</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">O nas</a></li>
+                            <li><a href="#">Centrum pomocy</a></li>
+                            <li><a href="#">Kontakt – Obsługa Klienta</a></li>
+                            <li><a href="#">Kontakt – Dział Sprzedaży</a></li>
+                            <li><a href="#">Cennik</a></li>
+                            <li><a href="#">Warunki współpracy</a></li>
+                            <li><a href="#">Polityka prywatności</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>SZYBKIE MENU</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">Mapa kategorii</a></li>
+                            <li><a href="#">Mapa miejscowości</a></li>
+                            <li><a href="#">Artykuły i porady</a></li>
+                            <li><a href="#">Baza firm</a></li>
+                            <li><a href="#">Dodaj firmę</a></li>
+                            <li><a href="#">Płatności</a></li>
+                            <li><a href="#">Reklamacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>Najczęściej szukane</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">fryzjer warszawa</a></li>
+                            <li><a href="#">salon fryzjerski pruszkow</a></li>
+                            <li><a href="#">sprzedam fotel do pedicure</a></li>
+                            <li><a href="#">pomieszczenie do wynajęcia</a></li>
+                            <li><a href="#">odstępie box</a></li>
+                            <li><a href="#">oddam za darmo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <img class="mu-footer-logo" src="img/logo.png" alt="logo">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mu-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-footer-bottom">
+                            <p class="regulations">Korzystanie z serwisu oznacza akceptację
+                                <span class="regulations-link"><a href="#">regulaminu</a>.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/config-sliders.js"></script>
+</body>
+
+</html>

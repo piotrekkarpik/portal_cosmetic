@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>Portal kosmetyczny</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700,900|Roboto+Condensed:400,700|Roboto:400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="default-header">
+        <div class="menutop-wrap">
+            <div class="container menu-top-style">
+                <div class="menu-top2">
+                    <div class="dropdown">
+                        <button class="btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            <i class="fas fa-user-circle"></i> MOJE KONTO
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header3">Dzień dobry: <span>Piotr!</span></li>
+                            <li class="dropdown-header">Moje konto:</li>
+                            <li><a href="moje-konto.html">Ustawienia</a></li>
+                            <li><a href="moje-ogłoszenia.html">Ogłoszenia</a></li>
+                            <li><a href="moje-wiaodmosci.html">Odpowiedzi</a></li>
+                            <li><a href="historia_platnosci.html">Płatności</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header2">Obserwowane:</li>
+                            <li><a href="#">Ogłoszenia</a></li>
+                            <li class="log-out"><a href="index-out.html">Wyloguj</a></li>
+                        </ul>
+                    </div>
+                    <a href="dodaj-ogloszenie.html">
+                    <button class="button nav-item">
+                        <i class="fa fa-plus"></i> Dodaj ogłoszenie
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container .navbar-container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo-1.png"><h1 class="logo">KOSMO<br><span class="logo2">portal-kosmetyczny</span></h1>
+                    </a>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end align-items-center"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li><a href="index.html">GŁÓWNA</a></li>
+                            <li><a href="listing-ogloszenie.html">OGŁOSZENIA</a></li>
+                            <li><a href="listing-blog.html">BLOG</a></li>
+                            <li><a href="pakiety_tabela.html">PAKIETY</a></li>
+                            <li><a href="#">POMOC</a></li>
+                            <li><a href="formularz_kontaktowy.html">KONTAKT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start banner-header2 -->
+    <section class="banner-header2">
+        <div class="container">
+            <div class="row fullscreen align-items-center text-center">
+                <div class="banner-content col-lg-12">
+                    <h2 class="text-header4">Moje konto</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner-header2 -->
+    <!-- Start List-Ads2 -->
+    <section class="list-ads2 text-center">
+        <div class="container">
+            <div class="header-user-ads">
+                <p class="name-user-ads">moje konto</p>
+                <p>W tym miejscu możesz zarządzać swoim kontem <br>zmienić hasło, adres telefon.</p>
+            </div>
+            <nav class="nav-tabs-date">
+                <!-- Start nav-tabs-date-->
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-user-tab" data-toggle="tab" href="#nav-user" role="tab" aria-controls="nav-user" aria-selected="true">Dane podstawowe</a>
+                    <a class="nav-item nav-link" id="nav-company-tab" data-toggle="tab" href="#nav-company" role="tab" aria-controls="nav-company" aria-selected="false">Dane firmowe</a>
+                </div>
+            </nav> <!-- End nav-tabs-date-->
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-user" role="tabpanel" aria-labelledby="nav-user-tab">
+                    <!-- Start user-data-form -->
+                    <div class="user-data-form">
+                        <form action="#" method="" class="text-left">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user margin">Twoje Imię</label>
+                                    <input class="form-control form-control-lg" type="text" name="firstname" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Ulica numer domu/mieszkania</label>
+                                    <input class="form-control form-control-lg" type="text" name="myadress" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Nazwisko</label>
+                                    <input class="form-control form-control-lg" type="text" name="surname" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Kod pocztowy</label>
+                                    <input class="form-control form-control-lg" type="text" name="post-code" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Twój adres emaila</label>
+                                    <input class="form-control form-control-lg" type="email" name="email" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Miasto</label>
+                                    <select class="form-control form-control-lg">
+                                        <option value="0">Wybierz miasto</option>
+                                        <option value="Warszawa">Warszawa</option>
+                                        <option value="Krakww">Kraków</option>
+                                        <option value="Lublin">Lublin</option>
+                                        <option value="Poznaz">Poznań</option>
+                                        <option value="Białystok">Białystok</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Hasło</label>
+                                    <input class="form-control form-control-lg" type="password" name="password"
+                                        required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Województwo</label>
+                                    <select class="form-control form-control-lg">
+                                        <option value="0">Wybierz województwo</option>
+                                        <option value="Mazowiedzkie">Mazowiedzkie</option>
+                                        <option value="Lubelskie">Lubelskie</option>
+                                        <option value="Łodzkie">Łódzkie</option>
+                                        <option value="Malopolskie">Małopolskie</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Powtórz hasło</label>
+                                    <input class="form-control form-control-lg" type="text" name="firstname" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Telefon kontaktowy</label>
+                                    <input class="form-control form-control-lg" type="text" name="firstname" required>
+                                </div>
+                            </div>
+                            <label class="head-user2">Dodaj avatar</label>
+                            <div class="form-group add-avatar">
+                                <label> Wybierz zdjecie +
+                                    <input type="file" id="File" size="60">
+                                </label>
+                                <img class="rounded-circle avatar-user" src="img/avatar.png">
+                                <button type="submit" class="btn btn-primary btn-upgrade-date">Uaktualnij konto</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End user-data-form -->
+                </div>
+                <div class="tab-pane fade" id="nav-company" role="tabpanel" aria-labelledby="nav-company-tab">
+                    <!-- Start user-company-form -->
+                    <div class="user-company-form">
+                        <form action="#" method="" class="text-left">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user margin">Nazwa firmy</label>
+                                    <input class="form-control form-control-lg" type="text" name="companyname" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Kod pocztowy</label>
+                                    <input class="form-control form-control-lg" type="text" name="post-code" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">NIP Firmy</label>
+                                    <input class="form-control form-control-lg" type="text" name="nipcompany" required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Województwo</label>
+                                    <select class="form-control form-control-lg">
+                                        <option value="0">Wybierz województwo</option>
+                                        <option value="Mazowiedzkie">Mazowiedzkie</option>
+                                        <option value="Lubelskie">Lubelskie</option>
+                                        <option value="Łodzkie">Łódzkie</option>
+                                        <option value="Malopolskie">Małopolskie</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Siedziba firmy (ulica i numer lokalu)</label>
+                                    <input class="form-control form-control-lg" type="text" name="companyadress"
+                                        required>
+                                </div>
+                                <div class="col-sm-6 col-xs-12 form-group">
+                                    <label class="head-user">Miasto</label>
+                                    <select class="form-control form-control-lg">
+                                        <option value="0">Wybierz miasto</option>
+                                        <option value="Warszawa">Warszawa</option>
+                                        <option value="Krakww">Kraków</option>
+                                        <option value="Lublin">Lublin</option>
+                                        <option value="Poznaz">Poznań</option>
+                                        <option value="Białystok">Białystok</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-upgrade-date">Uaktualnij konto</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End user-data-form -->
+                </div>
+            </div>
+    </section>
+    <!-- End List-Ads -->
+    <!-- Start footer -->
+    <footer class="mu-footer">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="footer-content col-lg-12">
+                    <h2 class="text-white-footer">
+                        <p class="h2-footer">W czym jeszcze możemy Ci pomóc?</p>
+                        <p class="h3-footer">Jeżeli masz pytania, a odpowiezdzi nie znalazłeś/aś na naszej
+                            stronie,<br>chiałbyś zamieścić reklamę płatną lub masz inną sprawę poprostu skontaktuj się z
+                            nami.
+                        </p>
+                        <p class="h1-footer">Zadzwoń: 801 400 500*</p>
+                        <p class="h4-footer">Nasi specjaliści są do Twojej dyspozycji w od pn-pt w
+                            godzinach 9 - 17. Koszt połączenia zgodny z cennikime Twojego operatora.
+                        </p>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex footer-link">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>DZIAŁ INFORMACJI</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">O nas</a></li>
+                            <li><a href="#">Centrum pomocy</a></li>
+                            <li><a href="#">Kontakt – Obsługa Klienta</a></li>
+                            <li><a href="#">Kontakt – Dział Sprzedaży</a></li>
+                            <li><a href="pakiety_tabela.html">Cennik</a></li>
+                            <li><a href="#">Warunki współpracy</a></li>
+                            <li><a href="#">Polityka prywatności</a></li>
+                            <li><a href="listing-blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>SZYBKIE MENU</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">Mapa kategorii</a></li>
+                            <li><a href="#">Mapa miejscowości</a></li>
+                            <li><a href="#">Artykuły i porady</a></li>
+                            <li><a href="#">Baza firm</a></li>
+                            <li><a href="#">Dodaj firmę</a></li>
+                            <li><a href="historia_platnosci.html">Płatności</a></li>
+                            <li><a href="#">Reklamacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <h3>Najczęściej szukane</h3>
+                        <ul class="mu-useful-links">
+                            <li><a href="#">fryzjer warszawa</a></li>
+                            <li><a href="#">salon fryzjerski pruszkow</a></li>
+                            <li><a href="#">sprzedam fotel do pedicure</a></li>
+                            <li><a href="#">pomieszczenie do wynajęcia</a></li>
+                            <li><a href="#">odstąpie box</a></li>
+                            <li><a href="#">oddam za darmo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="mu-single-footer">
+                        <img class="mu-footer-logo" src="img/logo.png" alt="logo">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mu-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-footer-bottom">
+                            <p class="regulations">Korzystanie z serwisu oznacza akceptację
+                                <span class="regulations-link"><a href="#">regulaminu</a>.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
